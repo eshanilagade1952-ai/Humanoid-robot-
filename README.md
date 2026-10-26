@@ -1,4 +1,4 @@
-# BHIV Humanoid — Digital Twin Foundation (Test Task 1)
+# BHIV Humanoid — Digital Twin Foundation 
 
 A documented, simulation-ready **digital foundation** for the BHIV Humanoid: structured URDF, DOF/joint maps, validation tooling, and handover docs. No hardware changes, no cosmetic redesign.
 
