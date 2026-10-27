@@ -1,0 +1,28 @@
+robot name is: bhiv_humanoid
+---------- Successfully Parsed XML ---------------
+root Link: base_link has 3 child(ren)
+    child(1):  l_hip_yaw_link
+        child(1):  l_hip_roll_link
+            child(1):  l_thigh_link
+                child(1):  l_shank_link
+                    child(1):  l_ankle_link
+                        child(1):  l_foot_link
+    child(2):  r_hip_yaw_link
+        child(1):  r_hip_roll_link
+            child(1):  r_thigh_link
+                child(1):  r_shank_link
+                    child(1):  r_ankle_link
+                        child(1):  r_foot_link
+    child(3):  torso_link
+        child(1):  l_shoulder_link
+            child(1):  l_shoulder_roll_link
+                child(1):  l_upper_arm_link
+                    child(1):  l_forearm_link
+                        child(1):  l_hand_link
+        child(2):  neck_link
+            child(1):  head_link
+        child(3):  r_shoulder_link
+            child(1):  r_shoulder_roll_link
+                child(1):  r_upper_arm_link
+                    child(1):  r_forearm_link
+                        child(1):  r_hand_link
