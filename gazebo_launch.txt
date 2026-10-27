@@ -1,0 +1,19 @@
+[INFO] [launch]: All log files can be found below /home/hpeshani/.ros/log/2026-10-11-18-30-58-928170-LAPTOP-O203NV86-29722
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [ign gazebo-1]: process started with pid [29724]
+[ign gazebo-1] terminate called after throwing an instance of 'Ogre::UnimplementedException'
+[ign gazebo-1]   what():  OGRE EXCEPTION(9:UnimplementedException):  in GL3PlusTextureGpu::copyTo at /build/ogre-next-UFfg83/ogre-next-2.2.5+dfsg3/RenderSystems/GL3Plus/src/OgreGL3PlusTextureGpu.cpp (line 677)
+[ign gazebo-1] Stack trace (most recent call last) in thread 29772:
+[ign gazebo-1] #10   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+[ign gazebo-1] #9    Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x721aa07268df, in 
+[ign gazebo-1] #8    Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x721aa0694a82, in 
+[ign gazebo-1] #7    Object "/lib/x86_64-linux-gnu/libQt5Core.so.5", at 0x721a9ac9199d, in 
+[ign gazebo-1] #6    Object "/lib/x86_64-linux-gnu/libQt5Core.so.5", at 0x721a9ac8ff90, in qTerminate()
+[ign gazebo-1] #5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x721a9ceae276, in std::terminate()
+[ign gazebo-1] #4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x721a9ceae20b, in 
+[ign gazebo-1] #3    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x721a9cea2b9d, in 
+[ign gazebo-1] #2    Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x721aa06287f2, in abort
+[ign gazebo-1] #1    Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x721aa0642475, in raise
+[ign gazebo-1] #0    Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x721aa06969bc, in pthread_kill
+[ign gazebo-1] Aborted (Signal sent by tkill() 29728 1000)
+[INFO] [ign gazebo-1]: process has finished cleanly [pid 29724]

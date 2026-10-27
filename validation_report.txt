@@ -1,0 +1,16 @@
+[PASS] unique link names                                      26 links
+[PASS] unique joint names                                     25 joints
+[PASS] link names snake_case ending _link                     
+[PASS] joint names snake_case ending _joint                   
+[PASS] single root link (base_link)                           ['base_link']
+[PASS] tree: every non-root link has exactly one parent joint 
+[PASS] all links reach root, no cycles                        
+[PASS] DOF == 23 (estimated)                                  23
+[PASS] revolute axes are unit vectors                         
+[PASS] revolute limits present, lower<upper                   
+[PASS] all link masses > 0                                    []
+[PASS] inertia triangle inequality                            
+[PASS] visual + collision on every link                       
+[PASS] L/R joint pairs exist and mirror in Y                  []
+
+RESULT: ALL PASS
