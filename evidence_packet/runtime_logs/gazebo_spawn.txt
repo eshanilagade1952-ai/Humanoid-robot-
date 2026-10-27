@@ -1,0 +1,3 @@
+[INFO] [1791747737.053163106] [ros_gz_sim]: Requesting list of world names.
+[INFO] [1791747737.258888756] [ros_gz_sim]: Requested creation of entity.
+[INFO] [1791747737.259042080] [ros_gz_sim]: OK creation of entity.

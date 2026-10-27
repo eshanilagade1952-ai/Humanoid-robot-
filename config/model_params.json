@@ -1,0 +1,880 @@
+{
+ "links": {
+  "base_link": {
+   "size": [
+    0.1,
+    0.2,
+    0.08
+   ],
+   "center": [
+    0,
+    0,
+    0
+   ],
+   "mass": 1.0
+  },
+  "torso_link": {
+   "size": [
+    0.1,
+    0.22,
+    0.25
+   ],
+   "center": [
+    0,
+    0,
+    0.125
+   ],
+   "mass": 2.0
+  },
+  "neck_link": {
+   "size": [
+    0.04,
+    0.04,
+    0.04
+   ],
+   "center": [
+    0,
+    0,
+    0.02
+   ],
+   "mass": 0.1
+  },
+  "head_link": {
+   "size": [
+    0.1,
+    0.1,
+    0.12
+   ],
+   "center": [
+    0,
+    0,
+    0.06
+   ],
+   "mass": 0.4
+  },
+  "l_shoulder_link": {
+   "size": [
+    0.04,
+    0.04,
+    0.04
+   ],
+   "center": [
+    0,
+    0,
+    0
+   ],
+   "mass": 0.1
+  },
+  "l_shoulder_roll_link": {
+   "size": [
+    0.04,
+    0.04,
+    0.04
+   ],
+   "center": [
+    0,
+    0,
+    0
+   ],
+   "mass": 0.1
+  },
+  "l_upper_arm_link": {
+   "size": [
+    0.04,
+    0.04,
+    0.12
+   ],
+   "center": [
+    0,
+    0,
+    -0.06
+   ],
+   "mass": 0.2
+  },
+  "l_forearm_link": {
+   "size": [
+    0.035,
+    0.035,
+    0.11
+   ],
+   "center": [
+    0,
+    0,
+    -0.055
+   ],
+   "mass": 0.15
+  },
+  "l_hand_link": {
+   "size": [
+    0.03,
+    0.06,
+    0.08
+   ],
+   "center": [
+    0,
+    0,
+    -0.04
+   ],
+   "mass": 0.1
+  },
+  "l_hip_yaw_link": {
+   "size": [
+    0.04,
+    0.04,
+    0.04
+   ],
+   "center": [
+    0,
+    0,
+    0
+   ],
+   "mass": 0.15
+  },
+  "l_hip_roll_link": {
+   "size": [
+    0.04,
+    0.04,
+    0.04
+   ],
+   "center": [
+    0,
+    0,
+    0
+   ],
+   "mass": 0.15
+  },
+  "l_thigh_link": {
+   "size": [
+    0.05,
+    0.05,
+    0.2
+   ],
+   "center": [
+    0,
+    0,
+    -0.1
+   ],
+   "mass": 0.4
+  },
+  "l_shank_link": {
+   "size": [
+    0.04,
+    0.04,
+    0.2
+   ],
+   "center": [
+    0,
+    0,
+    -0.1
+   ],
+   "mass": 0.3
+  },
+  "l_ankle_link": {
+   "size": [
+    0.04,
+    0.04,
+    0.04
+   ],
+   "center": [
+    0,
+    0,
+    0
+   ],
+   "mass": 0.1
+  },
+  "l_foot_link": {
+   "size": [
+    0.16,
+    0.07,
+    0.02
+   ],
+   "center": [
+    0.03,
+    0,
+    -0.03
+   ],
+   "mass": 0.2
+  },
+  "r_shoulder_link": {
+   "size": [
+    0.04,
+    0.04,
+    0.04
+   ],
+   "center": [
+    0,
+    0,
+    0
+   ],
+   "mass": 0.1
+  },
+  "r_shoulder_roll_link": {
+   "size": [
+    0.04,
+    0.04,
+    0.04
+   ],
+   "center": [
+    0,
+    0,
+    0
+   ],
+   "mass": 0.1
+  },
+  "r_upper_arm_link": {
+   "size": [
+    0.04,
+    0.04,
+    0.12
+   ],
+   "center": [
+    0,
+    0,
+    -0.06
+   ],
+   "mass": 0.2
+  },
+  "r_forearm_link": {
+   "size": [
+    0.035,
+    0.035,
+    0.11
+   ],
+   "center": [
+    0,
+    0,
+    -0.055
+   ],
+   "mass": 0.15
+  },
+  "r_hand_link": {
+   "size": [
+    0.03,
+    0.06,
+    0.08
+   ],
+   "center": [
+    0,
+    0,
+    -0.04
+   ],
+   "mass": 0.1
+  },
+  "r_hip_yaw_link": {
+   "size": [
+    0.04,
+    0.04,
+    0.04
+   ],
+   "center": [
+    0,
+    0,
+    0
+   ],
+   "mass": 0.15
+  },
+  "r_hip_roll_link": {
+   "size": [
+    0.04,
+    0.04,
+    0.04
+   ],
+   "center": [
+    0,
+    0,
+    0
+   ],
+   "mass": 0.15
+  },
+  "r_thigh_link": {
+   "size": [
+    0.05,
+    0.05,
+    0.2
+   ],
+   "center": [
+    0,
+    0,
+    -0.1
+   ],
+   "mass": 0.4
+  },
+  "r_shank_link": {
+   "size": [
+    0.04,
+    0.04,
+    0.2
+   ],
+   "center": [
+    0,
+    0,
+    -0.1
+   ],
+   "mass": 0.3
+  },
+  "r_ankle_link": {
+   "size": [
+    0.04,
+    0.04,
+    0.04
+   ],
+   "center": [
+    0,
+    0,
+    0
+   ],
+   "mass": 0.1
+  },
+  "r_foot_link": {
+   "size": [
+    0.16,
+    0.07,
+    0.02
+   ],
+   "center": [
+    0.03,
+    0,
+    -0.03
+   ],
+   "mass": 0.2
+  }
+ },
+ "joints": [
+  {
+   "name": "waist_yaw_joint",
+   "type": "revolute",
+   "parent": "base_link",
+   "child": "torso_link",
+   "xyz": [
+    0,
+    0,
+    0.04
+   ],
+   "axis": [
+    0,
+    0,
+    1
+   ],
+   "limit": [
+    -1.57,
+    1.57
+   ],
+   "group": "waist",
+   "servo": "S01"
+  },
+  {
+   "name": "neck_yaw_joint",
+   "type": "revolute",
+   "parent": "torso_link",
+   "child": "neck_link",
+   "xyz": [
+    0,
+    0,
+    0.25
+   ],
+   "axis": [
+    0,
+    0,
+    1
+   ],
+   "limit": [
+    -1.57,
+    1.57
+   ],
+   "group": "head",
+   "servo": "S02"
+  },
+  {
+   "name": "head_pitch_joint",
+   "type": "revolute",
+   "parent": "neck_link",
+   "child": "head_link",
+   "xyz": [
+    0,
+    0,
+    0.04
+   ],
+   "axis": [
+    0,
+    1,
+    0
+   ],
+   "limit": [
+    -0.7,
+    0.7
+   ],
+   "group": "head",
+   "servo": "S03"
+  },
+  {
+   "name": "l_shoulder_pitch_joint",
+   "type": "revolute",
+   "parent": "torso_link",
+   "child": "l_shoulder_link",
+   "xyz": [
+    0,
+    0.14,
+    0.21
+   ],
+   "axis": [
+    0,
+    1,
+    0
+   ],
+   "limit": [
+    -2.5,
+    2.5
+   ],
+   "group": "arm",
+   "servo": "S04"
+  },
+  {
+   "name": "l_shoulder_roll_joint",
+   "type": "revolute",
+   "parent": "l_shoulder_link",
+   "child": "l_shoulder_roll_link",
+   "xyz": [
+    0,
+    0,
+    0
+   ],
+   "axis": [
+    1,
+    0,
+    0
+   ],
+   "limit": [
+    -1.57,
+    1.57
+   ],
+   "group": "arm",
+   "servo": "S05"
+  },
+  {
+   "name": "l_upper_arm_yaw_joint",
+   "type": "revolute",
+   "parent": "l_shoulder_roll_link",
+   "child": "l_upper_arm_link",
+   "xyz": [
+    0,
+    0,
+    -0.03
+   ],
+   "axis": [
+    0,
+    0,
+    1
+   ],
+   "limit": [
+    -1.57,
+    1.57
+   ],
+   "group": "arm",
+   "servo": "S06"
+  },
+  {
+   "name": "l_elbow_pitch_joint",
+   "type": "revolute",
+   "parent": "l_upper_arm_link",
+   "child": "l_forearm_link",
+   "xyz": [
+    0,
+    0,
+    -0.12
+   ],
+   "axis": [
+    0,
+    1,
+    0
+   ],
+   "limit": [
+    -2.4,
+    0.0
+   ],
+   "group": "forearm",
+   "servo": "S07"
+  },
+  {
+   "name": "l_wrist_fixed_joint",
+   "type": "fixed",
+   "parent": "l_forearm_link",
+   "child": "l_hand_link",
+   "xyz": [
+    0,
+    0,
+    -0.11
+   ],
+   "axis": null,
+   "limit": null,
+   "group": "hand",
+   "servo": "-"
+  },
+  {
+   "name": "l_hip_yaw_joint",
+   "type": "revolute",
+   "parent": "base_link",
+   "child": "l_hip_yaw_link",
+   "xyz": [
+    0,
+    0.07,
+    -0.04
+   ],
+   "axis": [
+    0,
+    0,
+    1
+   ],
+   "limit": [
+    -0.8,
+    0.8
+   ],
+   "group": "leg",
+   "servo": "S08"
+  },
+  {
+   "name": "l_hip_roll_joint",
+   "type": "revolute",
+   "parent": "l_hip_yaw_link",
+   "child": "l_hip_roll_link",
+   "xyz": [
+    0,
+    0,
+    -0.03
+   ],
+   "axis": [
+    1,
+    0,
+    0
+   ],
+   "limit": [
+    -0.7,
+    0.7
+   ],
+   "group": "leg",
+   "servo": "S09"
+  },
+  {
+   "name": "l_hip_pitch_joint",
+   "type": "revolute",
+   "parent": "l_hip_roll_link",
+   "child": "l_thigh_link",
+   "xyz": [
+    0,
+    0,
+    -0.02
+   ],
+   "axis": [
+    0,
+    1,
+    0
+   ],
+   "limit": [
+    -1.57,
+    0.8
+   ],
+   "group": "leg",
+   "servo": "S10"
+  },
+  {
+   "name": "l_knee_pitch_joint",
+   "type": "revolute",
+   "parent": "l_thigh_link",
+   "child": "l_shank_link",
+   "xyz": [
+    0,
+    0,
+    -0.2
+   ],
+   "axis": [
+    0,
+    1,
+    0
+   ],
+   "limit": [
+    0.0,
+    2.4
+   ],
+   "group": "leg",
+   "servo": "S11"
+  },
+  {
+   "name": "l_ankle_pitch_joint",
+   "type": "revolute",
+   "parent": "l_shank_link",
+   "child": "l_ankle_link",
+   "xyz": [
+    0,
+    0,
+    -0.2
+   ],
+   "axis": [
+    0,
+    1,
+    0
+   ],
+   "limit": [
+    -0.8,
+    0.8
+   ],
+   "group": "foot",
+   "servo": "S12"
+  },
+  {
+   "name": "l_ankle_roll_joint",
+   "type": "revolute",
+   "parent": "l_ankle_link",
+   "child": "l_foot_link",
+   "xyz": [
+    0,
+    0,
+    -0.02
+   ],
+   "axis": [
+    1,
+    0,
+    0
+   ],
+   "limit": [
+    -0.5,
+    0.5
+   ],
+   "group": "foot",
+   "servo": "S13"
+  },
+  {
+   "name": "r_shoulder_pitch_joint",
+   "type": "revolute",
+   "parent": "torso_link",
+   "child": "r_shoulder_link",
+   "xyz": [
+    0,
+    -0.14,
+    0.21
+   ],
+   "axis": [
+    0,
+    1,
+    0
+   ],
+   "limit": [
+    -2.5,
+    2.5
+   ],
+   "group": "arm",
+   "servo": "S14"
+  },
+  {
+   "name": "r_shoulder_roll_joint",
+   "type": "revolute",
+   "parent": "r_shoulder_link",
+   "child": "r_shoulder_roll_link",
+   "xyz": [
+    0,
+    0,
+    0
+   ],
+   "axis": [
+    1,
+    0,
+    0
+   ],
+   "limit": [
+    -1.57,
+    1.57
+   ],
+   "group": "arm",
+   "servo": "S15"
+  },
+  {
+   "name": "r_upper_arm_yaw_joint",
+   "type": "revolute",
+   "parent": "r_shoulder_roll_link",
+   "child": "r_upper_arm_link",
+   "xyz": [
+    0,
+    0,
+    -0.03
+   ],
+   "axis": [
+    0,
+    0,
+    1
+   ],
+   "limit": [
+    -1.57,
+    1.57
+   ],
+   "group": "arm",
+   "servo": "S16"
+  },
+  {
+   "name": "r_elbow_pitch_joint",
+   "type": "revolute",
+   "parent": "r_upper_arm_link",
+   "child": "r_forearm_link",
+   "xyz": [
+    0,
+    0,
+    -0.12
+   ],
+   "axis": [
+    0,
+    1,
+    0
+   ],
+   "limit": [
+    -2.4,
+    0.0
+   ],
+   "group": "forearm",
+   "servo": "S17"
+  },
+  {
+   "name": "r_wrist_fixed_joint",
+   "type": "fixed",
+   "parent": "r_forearm_link",
+   "child": "r_hand_link",
+   "xyz": [
+    0,
+    0,
+    -0.11
+   ],
+   "axis": null,
+   "limit": null,
+   "group": "hand",
+   "servo": "-"
+  },
+  {
+   "name": "r_hip_yaw_joint",
+   "type": "revolute",
+   "parent": "base_link",
+   "child": "r_hip_yaw_link",
+   "xyz": [
+    0,
+    -0.07,
+    -0.04
+   ],
+   "axis": [
+    0,
+    0,
+    1
+   ],
+   "limit": [
+    -0.8,
+    0.8
+   ],
+   "group": "leg",
+   "servo": "S18"
+  },
+  {
+   "name": "r_hip_roll_joint",
+   "type": "revolute",
+   "parent": "r_hip_yaw_link",
+   "child": "r_hip_roll_link",
+   "xyz": [
+    0,
+    0,
+    -0.03
+   ],
+   "axis": [
+    1,
+    0,
+    0
+   ],
+   "limit": [
+    -0.7,
+    0.7
+   ],
+   "group": "leg",
+   "servo": "S19"
+  },
+  {
+   "name": "r_hip_pitch_joint",
+   "type": "revolute",
+   "parent": "r_hip_roll_link",
+   "child": "r_thigh_link",
+   "xyz": [
+    0,
+    0,
+    -0.02
+   ],
+   "axis": [
+    0,
+    1,
+    0
+   ],
+   "limit": [
+    -1.57,
+    0.8
+   ],
+   "group": "leg",
+   "servo": "S20"
+  },
+  {
+   "name": "r_knee_pitch_joint",
+   "type": "revolute",
+   "parent": "r_thigh_link",
+   "child": "r_shank_link",
+   "xyz": [
+    0,
+    0,
+    -0.2
+   ],
+   "axis": [
+    0,
+    1,
+    0
+   ],
+   "limit": [
+    0.0,
+    2.4
+   ],
+   "group": "leg",
+   "servo": "S21"
+  },
+  {
+   "name": "r_ankle_pitch_joint",
+   "type": "revolute",
+   "parent": "r_shank_link",
+   "child": "r_ankle_link",
+   "xyz": [
+    0,
+    0,
+    -0.2
+   ],
+   "axis": [
+    0,
+    1,
+    0
+   ],
+   "limit": [
+    -0.8,
+    0.8
+   ],
+   "group": "foot",
+   "servo": "S22"
+  },
+  {
+   "name": "r_ankle_roll_joint",
+   "type": "revolute",
+   "parent": "r_ankle_link",
+   "child": "r_foot_link",
+   "xyz": [
+    0,
+    0,
+    -0.02
+   ],
+   "axis": [
+    1,
+    0,
+    0
+   ],
+   "limit": [
+    -0.5,
+    0.5
+   ],
+   "group": "foot",
+   "servo": "S23"
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+header:
+  stamp:
+    sec: 1791722123
+    nanosec: 51825607
+  frame_id: ''
+name:
+- waist_yaw_joint
+- neck_yaw_joint
+- head_pitch_joint
+- l_shoulder_pitch_joint
+- l_shoulder_roll_joint
+- l_upper_arm_yaw_joint
+- l_elbow_pitch_joint
+- l_hip_yaw_joint
+- l_hip_roll_joint
+- l_hip_pitch_joint
+- l_knee_pitch_joint
+- l_ankle_pitch_joint
+- l_ankle_roll_joint
+- r_shoulder_pitch_joint
+- r_shoulder_roll_joint
+- r_upper_arm_yaw_joint
+- r_elbow_pitch_joint
+- r_hip_yaw_joint
+- r_hip_roll_joint
+- r_hip_pitch_joint
+- r_knee_pitch_joint
+- r_ankle_pitch_joint
+- r_ankle_roll_joint
+position:
+- 0.0
+- 0.0
+- 0.12487999999999988
+- -0.20249999999999968
+- 0.04238999999999993
+- -0.1613960000000001
+- -0.12984000000000018
+- 0.012959999999999972
+- 0.05669999999999997
+- -0.0003489999999999327
+- 0.0
+- -0.0048000000000000265
+- 0.0027000000000000357
+- 0.0
+- -0.006593999999999989
+- 1.145786
+- 0.0
+- 0.0
+- 0.0
+- -0.0003489999999999327
+- 0.0
+- 0.0
+- 0.0
+velocity: []
+effort: []
+---
