@@ -1,6 +1,0 @@
-
-Requesting state for world [empty]...
-
-Available models:
-    - ground_plane
-    - bhiv_humanoid

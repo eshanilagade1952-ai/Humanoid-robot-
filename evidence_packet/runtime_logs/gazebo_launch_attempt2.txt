@@ -1,3 +1,0 @@
-[INFO] [launch]: All log files can be found below /home/hpeshani/.ros/log/2026-10-12-01-10-35-315693-LAPTOP-O203NV86-498
-[INFO] [launch]: Default logging verbosity is set to INFO
-[INFO] [ign gazebo-1]: process started with pid [500]

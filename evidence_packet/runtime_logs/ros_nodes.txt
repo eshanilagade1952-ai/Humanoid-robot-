@@ -1,4 +1,0 @@
-/joint_state_publisher
-/robot_state_publisher
-/rviz
-/transform_listener_impl_56f07bd43de0

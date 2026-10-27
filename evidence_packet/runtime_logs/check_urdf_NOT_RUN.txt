@@ -1,1 +1,0 @@
-check_urdf (ROS2/liburdfdom-tools) not available in this environment. Run: check_urdf urdf/bhiv_humanoid_foundation.urdf
